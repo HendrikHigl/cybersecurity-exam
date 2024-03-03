@@ -15,3 +15,30 @@ Recool starten
 
 Ivo starten
 `nmapScenarioScan.py eth1`
+`nmap -A -p- -T4 10.166.{Subnetze}.{Maschinen}`
+
+#### What to look for on a new System
+Banner anschauen beim Verbinden
+`!!!`
+
+Ordner anschauen 
+`ls -la`
+
+Environment Variables
+`printenv`
+
+Bash History
+`.bashhistory`
+(im home Directory)
+
+Prozesse anschauen
+`ps -ef`
+
+Mounted Filesystems anschauen
+`df -h`
+[[Linux Basics]]
+
+Nach flags in Dateien suchen
+`find / interesting_file`
+`find / interesting_file | grep intersting_file`
+[[Search Things]]

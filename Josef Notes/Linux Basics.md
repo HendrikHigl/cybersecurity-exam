@@ -1,6 +1,5 @@
 Set Tastaturlayout
 `setxkbmap -layout de`
-
 ### Environment Variables
 Setzen
 `VARIABLE_NAME=value`
@@ -91,7 +90,7 @@ Festplatten anzeigen
 `df -h`
 
 Systemcalls anzeigen
-`sstrace -p <ProcessID>`
+`strace -p <ProcessID>`
 
 ### Text Decodieren
 Line Breaks entfernen
