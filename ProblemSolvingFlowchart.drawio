@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T14:37:40.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="6-prShdqPt-7jPfotY5t" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T16:02:48.803Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="UACYpcZpnj4Yj6xKG1O2" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2052" dy="2551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -240,6 +240,9 @@
         <mxCell id="SI-zspWhiQiBHQJMssZY-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SI-zspWhiQiBHQJMssZY-73" target="SI-zspWhiQiBHQJMssZY-169">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SI-zspWhiQiBHQJMssZY-73" target="SI-zspWhiQiBHQJMssZY-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SI-zspWhiQiBHQJMssZY-73" value="Auf nem Linux?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="-20" width="120" height="40" as="geometry" />
         </mxCell>
@@ -459,6 +462,24 @@
         </mxCell>
         <mxCell id="SI-zspWhiQiBHQJMssZY-169" value="LinPeas raufschieben" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1040" y="-20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SI-zspWhiQiBHQJMssZY-171" target="SI-zspWhiQiBHQJMssZY-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SI-zspWhiQiBHQJMssZY-171" target="SI-zspWhiQiBHQJMssZY-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-171" value="Biste Root?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SI-zspWhiQiBHQJMssZY-174" target="SI-zspWhiQiBHQJMssZY-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-174" value="Wat haste für Sudo rechte?&lt;div&gt;`sudo -l`&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="-260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SI-zspWhiQiBHQJMssZY-176" value="Mounted Directories anschauen, vielleicht stehen irgendwo alle Flags drin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="-210" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
